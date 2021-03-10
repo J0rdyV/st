@@ -115,6 +115,11 @@ static const char *colorname[] = {
   [13] = "#d3869b", /* magenta */
   [14] = "#8ec07c", /* cyan    */
   [15] = "#ebdbb2", /* white   */
+
+  /* more colors can be added after 255 to use with DefaultXX */
+  "#cccccc",
+  "#555555",
+  "black",
 };
 
 /*
@@ -122,9 +127,12 @@ static const char *colorname[] = {
  * foreground, background, cursor
  */
 unsigned int defaultfg = 15;
-unsigned int defaultbg = 0;
+unsigned int defaultbg = 258;
 static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 257;
+
+/* bg opacity */
+float alpha = 0.8;
 
 /*
  * Default shape of cursor
