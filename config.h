@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Code:style=Regular:size=14:antialias=true:autohint=true";
+static char *font = "Cascadia Code:size=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -127,7 +127,7 @@ static const char *colorname[] = {
  * foreground, background, cursor
  */
 unsigned int defaultfg = 15;
-unsigned int defaultbg = 258;
+unsigned int defaultbg = 0;
 static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 257;
 
