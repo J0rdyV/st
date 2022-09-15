@@ -7,7 +7,7 @@
  */
 /* static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true"; */
 /* static char *font = "Cascadia Code:style=regular:pixelsize=17:antialias=true:autohint=true"; */
-static char *font = "Terminus:style=Bold:size=14:antialias=true:autohint=true";
+static char *font = "Terminus:style=Bold:size=12:antialias=true:autohint=true";
 /* static char *font = "Misc Tamsyn:style=Regular:pixelsize=20"; */
 static int borderpx = 2;
 
@@ -100,7 +100,7 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
 	/* 8 normal colors */
-	[0] = "#1d2021", /* normal: #282828 / hard: #1d2021 / soft: #32302f */
+	[0] = "#32302f", /* normal: #282828 / hard: #1d2021 / soft: #32302f */
 	[1] = "#cc241d", /* red     */
 	[2] = "#98971a", /* green   */
 	[3] = "#d79921", /* yellow  */
