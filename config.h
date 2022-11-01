@@ -6,10 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /* static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true"; */
-/* static char *font = "Cascadia Code:style=regular:pixelsize=17:antialias=true:autohint=true"; */
-static char *font = "Terminus:style=Bold:size=12:antialias=true:autohint=true";
+static char *font = "Cascadia Code:style=regular:pixelsize=18:antialias=true:autohint=true";
+/* static char *font = "Terminus:size=14:antialias=true:autohint=true"; */
 /* static char *font = "Misc Tamsyn:style=Regular:pixelsize=20"; */
-static int borderpx = 2;
+/* static int borderpx = 2; */
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
