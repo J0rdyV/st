@@ -7,7 +7,7 @@
  */
 /* static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true"; */
 static char *font = "Cascadia Code:style=regular:pixelsize=18:antialias=true:autohint=true";
-/* static char *font = "Terminus:size=14:antialias=true:autohint=true"; */
+// static char *font = "Terminus:size=16:antialias=true:autohint=true";
 /* static char *font = "Misc Tamsyn:style=Regular:pixelsize=20"; */
 /* static int borderpx = 2; */
 static int borderpx = 5;
@@ -57,8 +57,8 @@ int allowwindowops = 0;
  * near minlatency, but it waits longer for slow updates to avoid partial draw.
  * low minlatency will tear/flicker more, as it can "detect" idle too early.
  */
-static double minlatency = 8;
-static double maxlatency = 33;
+static double minlatency = 1;
+static double maxlatency = 15;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
@@ -95,13 +95,13 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
 	/* 8 normal colors */
-	[0] = "#32302f", /* normal: #282828 / hard: #1d2021 / soft: #32302f */
+	[0] = "#282828", /* normal: #282828 / hard: #1d2021 / soft: #32302f / custom: #0d0a11 */
 	[1] = "#cc241d", /* red     */
 	[2] = "#98971a", /* green   */
 	[3] = "#d79921", /* yellow  */
